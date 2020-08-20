@@ -7,6 +7,24 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v1.12.0"></a>
+## [v1.12.0] - 2020-08-17
+
+- fix: Using required arguments instead of lookup in replication_configuration ([#35](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/issues/35))
+
+
+<a name="v1.11.0"></a>
+## [v1.11.0] - 2020-08-17
+
+- feat: support a list of CORS rules instead of a single rule ([#40](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/issues/40))
+
+
+<a name="v1.10.0"></a>
+## [v1.10.0] - 2020-08-13
+
+- feat: Remove region parameter for 3.0 aws provider ([#38](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/issues/38))
+
+
 <a name="v1.9.0"></a>
 ## [v1.9.0] - 2020-07-01
 
@@ -82,7 +100,10 @@ All notable changes to this project will be documented in this file.
 - Initial commit
 
 
-[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.9.0...HEAD
+[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.12.0...HEAD
+[v1.12.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.11.0...v1.12.0
+[v1.11.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.10.0...v1.11.0
+[v1.10.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.9.0...v1.10.0
 [v1.9.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.8.0...v1.9.0
 [v1.8.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.7.0...v1.8.0
 [v1.7.0]: https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/compare/v1.6.0...v1.7.0
